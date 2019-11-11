@@ -1,0 +1,22 @@
+.Time {
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (orientation: landscape) {
+  .Time {
+    font-size: 15vw;
+    height: 75%;
+  }
+}
+
+@media (orientation: portrait) {
+  .Time {
+    font-size: 30vw;
+    height: 50vh;
+    height: calc(var(--vh, 1vh) * 50);
+  }
+}

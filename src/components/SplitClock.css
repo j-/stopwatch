@@ -1,0 +1,33 @@
+.SplitClock {
+  display: flex;
+  min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+.SplitClock-time,
+.SplitClock-stopwatch {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SplitClock-time {
+  background-color: hsl(200, 80%, 90%);
+}
+
+.SplitClock-stopwatch {
+  background-color: hsl(0, 80%, 90%);
+}
+
+@media (orientation: landscape) {
+  .SplitClock {
+    flex-direction: row;
+  }
+}
+
+@media (orientation: portrait) {
+  .SplitClock {
+    flex-direction: column;
+  }
+}
