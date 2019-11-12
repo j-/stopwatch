@@ -8,7 +8,7 @@ import { composeWithDevTools } from 'redux-devtools-extension/developmentOnly';
 import persistState from 'redux-localstorage';
 import thunk from 'redux-thunk';
 import { Provider as StoreProvider } from 'react-redux';
-import registerServiceWorker from './registerServiceWorker';
+import registerServiceWorker from './register-service-worker';
 import './styles.css';
 
 const store = createStore(rootReducer, composeWithDevTools(
