@@ -3,7 +3,7 @@
   "name": "Split clock and stopwatch",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "/favicon.ico",
       "sizes": "192x192",
       "type": "image/png"
     }
