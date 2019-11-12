@@ -23,7 +23,7 @@ const reducer: Reducer<RootReducerState> = (state = DEFAULT_STATE, action) => {
     } else {
       return {
         ...state,
-        started: action.data.time - (state.stopped - state.started),
+        started: action.data.time - (state.stopped! - state.started!),
         stopped: null,
       };
     }

@@ -12,7 +12,7 @@ import './styles.css';
 
 const store = createStore(rootReducer, composeWithDevTools(
   applyMiddleware(thunk),
-  persistState(),
+  persistState() as any,
 ));
 
 render(
