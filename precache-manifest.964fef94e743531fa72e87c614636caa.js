@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/stopwatch/static/css/main.46af120a.chunk.css"
   },
   {
-    "revision": "bc617bd4f46c0ba0edf024cafc31601c",
+    "revision": "d8d9860a2525a8c1cb6b83c49ae7da4f",
     "url": "/stopwatch/index.html"
   }
 ];
