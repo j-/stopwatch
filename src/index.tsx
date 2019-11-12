@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render } from 'react-dom';
-import { enable } from './nosleep';
+import { enable as nosleep } from './nosleep';
 import App from './components/App';
 import { createStore, applyMiddleware } from 'redux';
 import rootReducer from './store';
@@ -24,6 +24,6 @@ render(
   document.getElementById('root')
 );
 
-enable();
+nosleep();
 
 registerServiceWorker();

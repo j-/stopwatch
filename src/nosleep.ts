@@ -4,5 +4,5 @@ const nosleep = new NoSleep();
 
 export const enable = () => {
   nosleep.enable();
-  return () => nosleep.disable();
+  return () => { nosleep.disable(); };
 };
