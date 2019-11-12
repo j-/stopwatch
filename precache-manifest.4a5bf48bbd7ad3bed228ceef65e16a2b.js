@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/stopwatch/static/js/runtime~main.650f3d7d.js"
   },
   {
-    "revision": "aa56305fd6e07fafa89c",
-    "url": "/stopwatch/static/js/main.aa56305f.chunk.js"
+    "revision": "6480319826d9de6d8463",
+    "url": "/stopwatch/static/js/main.64803198.chunk.js"
   },
   {
     "revision": "1f5aa3ae4fb3a4ca3f12",
     "url": "/stopwatch/static/js/1.1f5aa3ae.chunk.js"
   },
   {
-    "revision": "aa56305fd6e07fafa89c",
+    "revision": "6480319826d9de6d8463",
     "url": "/stopwatch/static/css/main.46af120a.chunk.css"
   },
   {
-    "revision": "d8d9860a2525a8c1cb6b83c49ae7da4f",
+    "revision": "62c5a461637a2995b378535dc6f939e9",
     "url": "/stopwatch/index.html"
   }
 ];
