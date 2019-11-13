@@ -25,6 +25,7 @@
   appearance: none;
   background: none;
   border: none;
+  color: inherit;
 }
 
 @media (orientation: landscape) {
