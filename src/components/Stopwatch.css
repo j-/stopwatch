@@ -19,7 +19,7 @@
   flex-direction: row;
 }
 
-.Stopwatch-actions button {
+.Stopwatch-action {
   flex: 1;
   font-size: 3vw;
   appearance: none;
@@ -36,7 +36,7 @@
     font-size: 10vw;
     height: 75%;
   }
-  .Stopwatch-actions button {
+  .Stopwatch-action {
     font-size: 5vw;
   }
 }
@@ -50,7 +50,7 @@
   .Stopwatch-count {
     font-size: 20vw;
   }
-  .Stopwatch-actions button {
+  .Stopwatch-action {
     font-size: 10vw;
   }
 }

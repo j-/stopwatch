@@ -29,10 +29,10 @@ const Stopwatch: React.FC = () => {
         {formattedCount}
       </div>
       <div className="Stopwatch-actions">
-        <button type="button" onClick={onClickStartStop}>
+        <button className="Stopwatch-action" type="button" onClick={onClickStartStop}>
           {buttonText}
         </button>
-        <button type="button" onClick={onClickReset}>
+        <button className="Stopwatch-action" type="button" onClick={onClickReset}>
           Reset
         </button>
       </div>
